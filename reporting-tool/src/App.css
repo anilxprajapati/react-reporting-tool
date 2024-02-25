@@ -1,0 +1,191 @@
+
+body {
+    color: rgb(147, 161, 171);
+    font-weight: 600 !important;
+}
+
+.text-primary {
+    color: rgba(80, 158, 227) !important;
+}
+
+.text-dark {
+    color: #4c5773 !important;
+}
+
+.text-secondary {
+    color: #4c5773 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+input, a {
+    font-weight: 600 !important;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-primary {
+    background-color: rgba(80, 158, 227) !important;
+}
+
+.btn-white {
+    background-color: white;
+    color: rgba(80, 158, 227) !important;
+    border: none;
+}
+
+.btn-white:hover {
+    background-color: rgba(80, 158, 227);
+    color: white !important;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.color-primary {
+    background-color: rgba(80, 158, 227, 0.1);
+    color: rgb(80, 158, 227); 
+}
+
+.dropdown button {
+    background-color: transparent !important;
+    color: rgba(80, 158, 227) !important;
+    border: 2px solid rgba(80, 158, 227, 0.25) !important;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.dropdown button:hover, .dropdown button:active {
+    background-color: transparent !important;
+    border: 2px solid rgba(80, 158, 227, 0.8) !important;
+    transition: all 0.1s ease-out;
+}
+
+.dropdown-menu {
+    min-width: fit-content;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item-text {
+    width: max-content;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-item {
+    color: rgba(0, 0, 0, 0.8);
+    width: 89%;
+    margin-left: 16px;
+    border-radius: 4px;
+}
+
+ .dropdown-item svg {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:active {
+    background-color: rgba(80, 158, 227, 0.3);
+}
+
+div[aria-labelledby="joins__starting_table"] .dropdown-item:hover {
+    color: white;
+    background-color: rgba(80, 158, 227, 1);    
+}
+
+div[aria-labelledby="joins__starting_table"] .dropdown-item:hover svg {
+    fill: white; 
+}
+
+.preview-data {
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-size: 0.7rem!important;
+}
+
+.preview-data:hover {
+    background-color: rgb(147, 161, 171, 0.1);
+    color: rgba(80, 158, 227, 1);
+}
+
+.hide {
+    display: none !important;
+}
+
+.action-buttons-container button {
+    min-width: 5rem;
+}
+
+.filter-button {
+    border: none;
+    color: rgb(113, 114, 173);
+    background-color: rgba(113, 114, 173, 0.2);
+    transition: background 300ms ease 0s;
+}
+
+.filter-button:hover {
+    color: rgb(113, 114, 173);
+    background-color: rgba(113, 114, 173, 0.3);
+}
+
+.join-button {
+    border: none;
+    color: rgb(80, 158, 227);
+    background-color: rgba(80, 158, 227, 0.2);
+    transition: background 300ms ease 0s
+}
+
+.join-button:hover {
+    color: rgb(80, 158, 227);
+    background-color: rgba(80, 158, 227, 0.3);
+}
+
+.aggregation-button {
+    border: none;
+    color: rgb(136, 191, 77);
+    background-color: rgba(136, 191, 77, 0.2);
+    transition: background 300ms ease 0s;
+}
+
+.aggregation-button:hover {
+    color: rgb(136, 191, 77);
+    background-color: rgba(136, 191, 77, 0.3);
+}
+
+.groupby-button, .sort-button, .row-limit-button {
+    border: none;
+    color: rgb(147, 161, 171);
+    background-color: transparent;
+}
+
+.groupby-button:hover, .sort-button:hover, .row-limit-button:hover {
+    color: rgb(147, 161, 171);
+    background-color: rgba(147, 161, 171, 0.15);
+}
+
+.table td:hover{
+    background-color:  rgba(80, 158, 227, 0.1) !important;
+}
+
+.datatable {
+    max-height: calc(100vh - 260px);
+    overflow: auto !important;
+}
+
+.close-button svg:hover {
+    fill: #4c5773;
+}
+
+button {
+    --bs-btn-border-color: none !important;
+    --bs-btn-bg: none !important;
+    --bs-btn-active-bg: none !important;
+    --bs-btn-hover-bg: none !important;
+    --bs-btn-active-color: none !important;
+}
+
